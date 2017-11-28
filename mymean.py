@@ -3,3 +3,4 @@ def mean(num_list):
     if isinstance(first, complex):
         return NotImplemented
     return sum(num_list)/len(num_list)
+#Compute the mean
