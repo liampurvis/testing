@@ -36,5 +36,8 @@ def test_complex():
     exp = NotImplemented
     assert obs == exp
 
-def test_broken():
-    1/0
+import numpy as np
+def test_mean():
+    array = np.random.uniform(0, 100, 10000)
+    assert np.mean(array) == mean(array)
+
